@@ -101,6 +101,7 @@ function Footer() {
   ];
   return (
     <Flex
+      as={"footer"}
       justify={"center"}
       // bg={"teal"}
       bg={"VeryLightGray"}

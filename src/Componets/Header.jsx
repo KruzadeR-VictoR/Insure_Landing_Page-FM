@@ -30,6 +30,7 @@ function Header() {
   return (
     <>
       <Flex
+        as={"header"}
         bg={"VeryLightGray"}
         justify={"space-between"}
         align={"center"}

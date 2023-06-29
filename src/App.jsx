@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 import "./App.css";
 import Banner from "./Componets/Banner";
 import Features from "./Componets/Features";
@@ -9,9 +10,11 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Features />
-      <Banner />
+      <Box as={"main"}>
+        <Hero />
+        <Features />
+        <Banner />
+      </Box>
       <Footer />
     </>
   );
