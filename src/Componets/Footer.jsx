@@ -160,7 +160,7 @@ function Footer() {
             />
           </Flex>
         </Flex>
-        <Divider role="horizontal rule" borderColor={"gray"} />
+        <Divider role="none" borderColor={"gray"} />
         {/* Bottom  */}
         <Flex
           direction={["column", "row"]}
