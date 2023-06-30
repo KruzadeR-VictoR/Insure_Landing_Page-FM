@@ -37,6 +37,7 @@ function Hero() {
           }}
         >
           <Heading
+            as={"h1"}
             color={"white"}
             fontFamily={"DmSerif"}
             fontSize={["3.1rem", "4rem"]}
